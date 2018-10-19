@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>商品详情</title>
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap-3.3.7-dist/css/bootstrap.css" />
+        <link rel="stylesheet" type="text/css" href="../css/base.css" />
+        <link rel="stylesheet" type="text/css" href="../css/goods.css" />
+        <!-- <link rel="stylesheet" type="text/css" href="../css/imagezoom.css" /> -->
+        <script src="../js/jquery-1.10.1.min.js" type="text/javascript"></script>
+        <script src="../js/common.js" type="text/javascript"></script>
+        <script src="../js/goods.js" type="text/javascript"></script>
+        <!-- <script src="../js/jquery.imagezoom.min.js" type="text/javascript"></script> -->
+    </head>
+    <body>
+        <!-- 顶部菜单 -->
+        <div id="top-nav">
+            <div class="container con">
+                <ul class="row top-ul">
+                    <li class="col-md-4" id="user-info">您好，&nbsp;
+                        <a href="login.html">请登录</a>&nbsp;&nbsp;
+                        <a href="reg.html" class="active">免费注册</a>
+                    </li>
+                    <li class="col-md-2">
+                        <a href="#">商家入驻</a>
+                    </li>
+                    <li class="col-md-3" id="bc-center">
+                        <div class="business-center">
+                            <ul class="bc-box">
+                                <li class="bc-show">
+                                    <a href="#" class="bc-show">贝贝商家中心<i class="glyphicon glyphicon-menu-down"></i></a>
+                                </li>
+                                <li class="bc-hide">
+                                    <ul>
+                                        <li>
+                                            <a href="#" class="hide2">供应商中心</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="hide1">贝贝商家中心</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="col-md-2">
+                        <div class="hlep-center">
+                        <i class="glyphicon glyphicon-question-sign" style="color: #ff5482"></i>
+                        <a href="#">帮助中心</a>
+                        <i class="glyphicon glyphicon-menu-down"></i>
+                        </div>
+                    </li>
+                    <li class="col-md-1">
+                        <div class="dropdown">
+                            <span>关注&nbsp;<i class="glyphicon glyphicon-menu-down"></i></span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 头部logo -->
+        <div id="head">
+            <div class="con">
+                <a href="../index.html" class="logo">贝贝网</a>
+                <a href="car.html" class="top-car">
+                    我的购物车
+                    <i class="glyphicon glyphicon-menu-down"></i>
+                    <div class="top-car-icon"><i class="glyphicon glyphicon-shopping-cart"></i></div>
+                </a>
+                <a href="#" class="main-logo-slogan fr">
+                    <img src="../img/main-logo-slogan.png" height="40" width="390" alt="" />
+                </a>
+            </div>
+        </div>
+
+        <!-- 导航 -->
+        <div id="main-nav">
+            <div class="con">
+                <!-- 导航列表 -->
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="../index.html">首页</a></li>
+                    <li class="nav-item"><a href="#">全球购</a></li>
+                    <li class="nav-item"><a href="list.html" class="active">限量购</a></li>
+                    <li class="nav-item"><a href="#">贝贝APP</a></li>
+                    <li class="nav-item"><a href="#">贝店</a></li>
+                    <li class="nav-item"><a href="#">贝货</a></li>
+                    <li class="nav-item"><a href="#">商家入驻</a>
+                    <img src="../img/icon-hot.png" alt="" />
+                    </li>
+                </ul>
+                
+                <!-- 搜索 -->
+                <div class="search-part">
+                    <div class="classify">
+                        <span>在售分类<i class="glyphicon glyphicon-menu-down"></i></span>
+                        <div class="classify-hide">
+                            <ul>
+                                <li class="active">热销分类</li>
+                                <li>儿童服饰</li>
+                                <li>婴儿装</li>
+                                <li>婴童鞋</li>
+                                <li>奶粉辅食</li>
+                                <li>纸尿裤</li>
+                                <li>哺育喂养</li>
+                                <li>洗护清洁</li>
+                                <li>睡眠出行</li>
+                                <li>玩具文体</li>
+                                <li>孕妈专区</li>
+                                <li>流行服饰</li>
+                                <li>鞋包服饰</li>
+                                <li>居家百货</li>
+                                <li>美妆个护</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="搜索商品或品牌" />
+                        <span class="input-group-addon" id="basic-addon2"><i class="glyphicon glyphicon-search"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="main-content">
+            <div class="con">
+                <div class="guiding">
+                    <a href="../index.html">首页</a>&#62;
+                    <a href="list.html">限量购</a>&#62;
+                    <span id="goodsTitle">随便瞎几把写电子字</span>
+                </div>
+                <div class="container thumbnail" id="goods-all">
+                    <!-- <div id="imgBox">
+                        <div class="box">
+                            
+                            <img class="bigP" src="../img/g1.jpg" alt="" />
+
+                            <img src="../img/g1.jpg" alt="" class="smallP" />
+                            <img src="../img/g2.jpg" alt="" class="smallP" />
+                             
+                        </div> 
+                    </div>
+                    <div class="goodsContent">
+                        <h3>今日特卖</h3>
+                        <p class="title">萌趣小鸡前开扣长袖套装，松紧可调腰，弹力橡筋不勒肚肚，可调节设计，胖瘦宝宝都能穿。两用裆设计，妈妈可根据宝宝需要自行沿缝线轻轻剪开。</p>
+
+                        <div class="price-info">
+                            <span class="newPrice">&#165;200</span>
+                            <div class="oldPrice">399</div>
+                            <div class="discount">
+                            折扣<br />3.4折</div>
+                            <div class="save">您节省了<br />199</div>
+                        </div>
+
+                        <div class="select-info">
+                            <div class="s-save s-con">
+                                <label for="">优惠</label>
+                                <span> 购买后约返10个贝壳 </span>
+                            </div>
+                            <div class="s-carriage s-con">
+                                <label for="">运费</label>
+                                <span>包邮（偏远地区除外）</span>
+                            </div>
+                            <div class="s-color s-con">
+                                <label for="">颜色</label>
+                                <span>白色</span><span>粉红色</span>
+                            </div>
+                            <div class="s-size s-con">
+                                <label for="">尺寸</label>
+                                <span>XS</span>
+                                <span>S</span>
+                                <span>M</span>
+                                <span>L</span>
+                            </div>
+                        </div>
+
+                        <div class="num-info">
+                            <label for="">购买数量</label>
+                            <div class="input-group s-num">
+                                <span class="input-group-addon">
+                                    -
+                                </span>
+                                <input type="text" class="form-control" id="s-num" value="1" >
+                                <span class="input-group-addon btn-con" id="addnum">+</span>
+                            </div>
+                        </div>
+
+                        <div id="addToCar">加入购物车</div>
+
+                    </div> -->
+
+                </div>
+            </div>
+        </div>
+
+        <!-- 固定边栏 -->
+        <div id="fixed">
+            <div><i class="glyphicon glyphicon-shopping-cart"></i></div>
+            <div><i class="glyphicon glyphicon-phone"></i></div>
+            <div><i class="glyphicon glyphicon-user"></i></div>
+            <div id="toTop"><i class="glyphicon glyphicon-hand-up"></i></div>
+        </div>
+
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="tb-booth tb-pic tb-s310">
+                                <a href="../img/01.jpg"><img src="../img/01_mid.jpg" alt="美女" rel="../img/01.jpg" class="jqzoom" /></a>
+                            </div>
+
+                            <ul class="tb-thumb" id="thumblist">
+                                <li class="tb-selected"><div class="tb-pic tb-s40"><a href="#"><img src="../img/01_small.jpg" mid="../img/01_mid.jpg" big="../img/01.jpg"></a></div></li>
+                                <li><div class="tb-pic tb-s40"><a href="#"><img  src="../img/02_small.jpg" mid="../img/02_mid.jpg" big="../img/02.jpg"></a></div></li>
+                                <li><div class="tb-pic tb-s40"><a href="#"><img src="../img/03_small.jpg" mid="../img/03_mid.jpg" big="../img/03.jpg"></a></div></li>
+                                <li><div class="tb-pic tb-s40"><a href="#"><img src="../img/04_small.jpg" mid="../img/04_mid.jpg" big="../img/04.jpg"></a></div></li>
+                                <li><div class="tb-pic tb-s40"><a href="#"><img src="../img/05_small.jpg" mid="../img/05_mid.jpg" big="../img/05.jpg"></a></div></li>
+                            </ul>
+                             -->

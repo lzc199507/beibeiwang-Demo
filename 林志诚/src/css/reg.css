@@ -1,0 +1,175 @@
+#head {
+  background: #fff;
+}
+#head .con {
+  height: 215px;
+  padding-top: 55px;
+  overflow: hidden;
+}
+#head .con .logo {
+  display: block;
+  text-indent: -9999em;
+  width: 250px;
+  height: 60px;
+  background: url(../img/logo.png);
+}
+
+#content {
+  background: #fff;
+}
+#content .con {
+  height: 606px;
+  padding-left: 50px;
+}
+#content .con .reg-pic {
+  width: 500px;
+  height: 354px;
+}
+#content .con .reg {
+  height: 496px;
+  width: 400px;
+  box-sizing: border-box;
+  background: #fff;
+  border: 1px solid #ececec;
+  border-top: 2px solid #ff4965;
+  padding: 50px 35px;
+  position: relative;
+}
+#content .con .reg #userN-tip, #content .con .reg #userN-warn {
+  position: absolute;
+  top: 78px;
+  left: 79px;
+  color: red;
+  display: none;
+}
+#content .con .reg #code-warn {
+  position: absolute;
+  top: 180px;
+  left: 79px;
+  color: red;
+  display: none;
+}
+#content .con .reg #passW-warn {
+  position: absolute;
+  top: 230px;
+  left: 79px;
+  color: red;
+  display: none;
+}
+#content .con .reg .reg-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 30px;
+}
+#content .con .reg .reg-title span {
+  font-size: 12px;
+  font-weight: 400;
+  color: #666;
+}
+#content .con .reg .reg-title a {
+  font-size: 12px;
+  font-weight: 400;
+  color: #ff4965;
+}
+#content .con .reg .input-group {
+  margin-bottom: 15px;
+}
+#content .con .reg .input-group .btn-con {
+  cursor: pointer;
+}
+#content .con .reg .tip {
+  font-size: 12px;
+  font-weight: 200;
+  margin-top: 15px;
+  line-height: 18px;
+  color: #666;
+}
+#content .con .reg .tip a {
+  color: #ff4965;
+  text-decoration: none;
+}
+#content .con .reg button {
+  width: 330px;
+  height: 32px;
+  color: #fff;
+  background: #ff4965;
+}
+#content .con .reg .ipt-quick {
+  margin-top: 20px;
+}
+#content .con .reg .ipt-quick span {
+  color: #666;
+  line-height: 24px;
+  font-size: 12px;
+}
+#content .con .reg .ipt-quick .ipt-con {
+  display: block;
+  float: left;
+  width: 25px;
+  height: 24px;
+  background: url(../img/qq&tb&wx.png);
+  margin: 0 4px;
+  background-repeat: no-repeat;
+}
+#content .con .reg .ipt-quick .ipt-qq {
+  background-position: 1px 0;
+}
+#content .con .reg .ipt-quick .ipt-qq:hover {
+  background-position: -28px 0;
+}
+#content .con .reg .ipt-quick .ipt-tb {
+  background-position: -59px 0;
+}
+#content .con .reg .ipt-quick .ipt-tb:hover {
+  background-position: -89px 0;
+}
+#content .con .reg .ipt-quick .ipt-wx {
+  background-position: -119px 0;
+}
+#content .con .reg .ipt-quick .ipt-wx:hover {
+  background-position: -149px 0;
+}
+
+#footer {
+  background: #555;
+  border-top: 3px solid #ff5482;
+}
+#footer .con {
+  height: 38px;
+  text-align: center;
+  padding: 10px 0;
+}
+#footer .con .footer-nav {
+  height: 18px;
+  color: #ddd;
+  line-height: 18px;
+}
+#footer .con .footer-nav a {
+  color: #ddd;
+  margin: 0 10px;
+  text-decoration: none;
+}
+#footer .con .footer-nav a:hover {
+  color: #fff;
+}
+
+#footer-Copyright {
+  background: #fff;
+}
+#footer-Copyright .con {
+  text-align: center;
+  height: 104px;
+  padding-top: 20px;
+  color: #999;
+  font-size: 12px;
+}
+#footer-Copyright .two {
+  margin-top: 8px;
+}
+#footer-Copyright .two a {
+  color: #999;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=reg.css.map */

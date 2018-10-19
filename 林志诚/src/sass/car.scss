@@ -1,0 +1,424 @@
+@charset "utf-8";
+
+// 顶部菜单
+#top-nav{
+    background: #f4f4f4;
+    border-bottom: 1px solid #e8e8e8;
+    .con{
+        // background: pink;
+        height: 28px;
+        .top-ul{
+            width: 670px;
+            height: 100%;
+            // background: yellow;
+            float: right;
+            font-size: 12px;
+            line-height: 28px;
+            text-align: center;
+            li{
+                // background: #58bc58;
+                height: 100%;
+                border-right: 1px solid #ddd;
+                padding: 0;
+                color: #555;
+                a{
+                    color: #555;
+                }
+                a.active{
+                    color: #ff5482;
+                }
+            }
+            #user-info{
+                i{
+                    color: #f90;
+                }
+                .num{
+                    color: #f90;
+                    text-decoration: none;
+                }
+            }
+            li:last-child{
+                border: none;
+            }
+            li:nth-child(3){
+                padding-left: 18px;
+                .business-center{
+                    width: 130px;
+                    // background: pink;
+                    .bc-box{
+                        width: 130px;
+                        li{
+                            border: none;
+                        }
+                        .bc-show{
+                            width: 130px;
+                        }
+                        .bc-hide{
+                            display: none;
+                            
+                            // background: cyan;
+                            
+                        }
+                    }
+                }
+                .business-center:hover .bc-box .bc-hide{
+                    display: block;
+                    z-index:4;
+                }
+            }
+
+        }
+    }
+}
+
+// 头部logo
+#head{
+    background: #fff;
+    .con{
+        // background: pink;
+        height: 90px;
+        padding-top: 28px;
+        position: relative;
+        .logo{
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 15px;
+            text-indent: -9999em;
+            width: 250px;
+            height: 60px;
+            background: url(../img/logo.png)
+        }
+        .main-logo-slogan{
+            margin-right: 36px;
+            // z-index: -3;
+        }
+        .top-car{
+            display: block;
+            width: 130px;
+            height: 35px;
+            background: #ff647c;
+            float: right;
+            color: #fff;
+            font-size: 16px;
+            line-height: 35px;
+            text-align: right;
+            padding-right: 5px;
+            border-radius: 10px;
+            position: relative;
+            
+            .top-car-icon{
+                width: 35px;
+                height: 35px;
+                background: #444;
+                border-radius: 50%;
+                border: 2px solid #fff;
+                position: absolute;
+                left: -16px;
+                top: 0;
+                text-align: center;
+            }
+        }
+    }
+}
+
+
+#car{
+    background: #f2f4f6;
+    border-top: 2px solid #c4c6c7;
+    padding-bottom: 20px;
+    .con{
+        background: #fefefe;
+        .car-process{
+            position: relative;
+            height: 72px;
+            background: #fafafa;
+            border-top: 1px solid #fff;
+            border-bottom: 1px solid #eee;
+            margin: 20px 0 10px 0;
+            h1{
+                margin: 0 0 0 30px;
+                line-height: 70px;
+                color: #a7a7a7;
+                text-shadow: 0 -1px 0 #fff;
+                font-size: 2em;
+            }
+            i{
+                position: absolute;
+                right: 30px;
+                top: 0;
+                background: url(../img/cart_merge.png) no-repeat 500px 500px;
+                width: 340px;
+                height: 70px;
+                display: inline-block;
+                background-position: 0 -88px;
+            }
+        }
+        .car-list{
+            // background: #fff6aa;
+            padding: 20px;
+            position: relative;
+            .car-form{
+                margin: 0;
+                td{
+                    padding: 12px;
+                }
+                .car-table{
+                    width: 100%;
+                    border: none;
+                    border-top: 1px solid #ddd;
+                    border-collapse: collapse;
+                    border-spacing: 0;
+                    empty-cells: show;
+                    th{
+                        border-left: none;
+                        border-width: 0 0 0 1px;
+                        font-size: inherit;
+                        margin: 0;
+                        overflow: visible;
+                        padding: 6px 12px;
+                    }
+                    thead{
+                        background: #f3f3f3;
+                        color: #555;
+                        text-align: left;
+                        vertical-align: bottom;
+                        display: table-header-group;
+                        tr{
+                            display: table-row;
+                            vertical-align: inherit;
+                            border-color: inherit;
+                            .car-th-check{
+                                width: 80px;
+                                input{
+                                    margin: 0;
+                                }
+                            }
+                            .car-th-item{
+                                width: 300px;
+                            }
+                            .car-th-info{
+                                width: 163px;
+                            }
+                            .car-th-price{
+                                width: 170px;
+                            }
+                            .car-th-num{
+                                width: 240px;
+                            }
+                            .car-th-total{
+                                width: 120px;
+                            }
+                            .car-th-del{
+                                width: 74px;
+                            }
+                        }
+                    }
+                    tbody {
+                        display: table-row-group;
+                        vertical-align: middle;
+                        border-color: inherit;
+                        .kong {
+                            height: 15px;
+                        }
+                        .shopName{
+                            background: #f4f4f4;
+                            border: 1px solid #d8d8d8;
+                            td{
+                                border-left: none;
+                                position: relative;
+                                vertical-align: top;
+                                padding: 12px;
+                                input{
+                                    margin: 0;
+                                }
+                                span{
+                                    color: #555;
+                                    padding-left: 6px;
+                                    a{
+                                        color: #3e3e3e;
+                                        text-decoration: none;
+                                    }
+                                }
+                            }
+                        }
+                        .show-item{
+                            border: 1px solid #d8d8d8;
+                            border-top: 0;
+                            .car-td-check {
+                                padding: 12px 0 12px 40px;
+                                vertical-align: middle;
+                                text-align: center;
+                                vertical-align: middle;
+                            }
+                            .car-td-item{
+                                a{
+                                    color: #3e3e3e;
+                                    text-decoration: none;
+                                    font-size: 12px;
+                                }
+                                .image{
+                                    float: left;
+                                    height: 75px;
+                                    width: 75px;
+                                    overflow: hidden;
+                                    border: 1px solid #ddd;
+                                    padding: 1px;
+                                    img{
+                                        width: 75px;
+                                        height: 75px;
+                                    }
+                                }
+                                .title{
+                                    display: block;
+                                    line-height: 20px;
+                                    margin: 0 20px 0 90px;
+                                    overflow: hidden;
+                                }
+                            }
+                            .car-td-info{
+                                color: #888;
+                                p{
+                                    margin: 0 0 8px;
+                                }
+                            }
+                            .car-td-price{
+                                .newPrice{
+                                    font-size: 20px;
+                                }
+                                .oldPrice{
+                                    color: #888;
+                                    text-decoration: line-through;
+                                }
+                            }
+                            .car-td-num{
+                                padding-right: 100px;
+                                span{
+                                    cursor: pointer;
+                                }
+                            }
+                            .car-td-total{
+                                color: #ff5482;
+                                font-size: 20px;
+                            }
+                        }
+                        .total1{
+                            padding: 12px 0;
+                            border: 1px solid #d8d8d8;
+                            border-top: 0;
+                            .subtotal{
+                                margin: 3px 0;
+                                span{
+                                    float: right;
+                                    display: block;
+                                    text-align: center;
+                                }
+                                span.title{
+                                    color: #afafaf;
+                                    font-size: 20px;
+                                    width: 80px;
+                                }
+                                span.price{
+                                    color: #ff5482;
+                                    font-size: 22px;
+                                    margin: 0 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .allCount{
+                    margin-top: 15px;
+                    width: 963px;
+                    height: 60px;
+                    background: #f3f3f3;
+                    padding: 0 0 0 25px;
+                    position: relative;
+                    border: 1px solid #eee;
+                    .row{
+                        padding: 15px 3px;
+                        input{
+                            margin: 0;
+                        }
+                        p{
+                            text-align: center;
+                            font-size: 14px;
+                            height: 30px;
+                            line-height: 30px;
+                            color: #404040;
+                            span{
+                                font-size: 16px;
+                                color: #ff4975;
+                            }
+                            a.buy-all{
+                                width: 180px;
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+// 分界处
+#boundary{
+    height: 148px;
+    background: #f9f9f9;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    img{
+        position: absolute;
+        left: 50%;
+        margin-left: -960px;
+        background-position: center;
+    }
+}
+
+
+// 底部
+#footer{
+    background: #555;
+    border-top: 3px solid #ff5482;
+    .con{
+        height: 38px;
+        text-align: center;
+        padding: 10px 0;
+        .footer-nav{
+            height: 18px;
+            color: #ddd;
+            line-height: 18px;
+            a{
+                color: #ddd;
+                margin: 0 10px;
+                text-decoration: none;
+            }
+            a:hover{
+                color: #fff;
+            }
+        }
+    }
+}
+
+// 底部版权
+#footer-Copyright{
+    background: #fff;
+    .con{
+        text-align: center;
+        height: 104px;
+        padding-top: 20px;
+        color: #999;
+        font-size: 12px;
+    }
+    .two{
+        margin-top: 8px;
+        a{
+            color: #999;
+            text-decoration: none;
+        }
+    }
+}

@@ -1,0 +1,182 @@
+@charset "utf-8";
+
+//顶部
+#head{
+    background: #fff;
+    .con{
+        // background: pink;
+        height: 215px;
+        padding-top: 55px;
+        overflow: hidden;
+        .logo{
+            display: block;
+            text-indent: -9999em;
+            width: 250px;
+            height: 60px;
+            background: url(../img/logo.png)
+        }
+    }
+}
+
+//中间
+#content{
+    background: #fff;
+    .con{
+        height: 606px;
+        padding-left: 50px;
+        .reg-pic{
+            width: 500px;
+            height: 354px;
+        }
+        .reg{
+            height: 496px;
+            width: 400px;
+            box-sizing: border-box;
+            background: #fff;
+            border: 1px solid #ececec;
+            border-top: 2px solid #ff4965;
+            padding: 50px 35px;
+            position: relative;
+            #userN-tip,#userN-warn{
+                position: absolute;
+                top: 78px;
+                left: 79px;
+                color: red;
+                display: none;
+            }
+            #code-warn{
+                position: absolute;
+                top: 180px;
+                left: 79px;
+                color: red;
+                display: none;
+            }
+            #passW-warn{
+                position: absolute;
+                top: 230px;
+                left: 79px;
+                color: red;
+                display: none;
+            }
+            .reg-title{
+                font-size: 14px;
+                font-weight: 700;
+                color: #000;
+                margin-bottom: 30px;
+                span{
+                    font-size: 12px;
+                    font-weight: 400;
+                    color: #666;
+                }
+                a{
+                    font-size: 12px;
+                    font-weight: 400;
+                    color: #ff4965;
+                }
+            }
+            .input-group{
+                margin-bottom: 15px;
+                .btn-con{
+                    cursor: pointer;
+                }
+            }
+            
+            .tip{
+                font-size: 12px;
+                font-weight: 200;
+                margin-top: 15px;
+                line-height: 18px;
+                color: #666;
+                
+                a{
+                    color: #ff4965;
+                    text-decoration: none;
+                }
+            }
+            button{
+                width: 330px;
+                height: 32px;
+                color: #fff;
+                background: #ff4965;
+            }
+            .ipt-quick{
+                margin-top: 20px;
+                span{
+                    color: #666;
+                    line-height: 24px;
+                    font-size: 12px;
+                }
+                .ipt-con{
+                    display: block;
+                    float: left;
+                    width: 25px;
+                    height: 24px;
+                    background: url(../img/qq&tb&wx.png);
+                    margin: 0 4px;
+                    background-repeat: no-repeat;
+                }
+                .ipt-qq{
+                    background-position: 1px 0;
+                }
+                .ipt-qq:hover{
+                    background-position: -28px 0;
+                }
+                .ipt-tb{
+                    background-position: -59px 0;
+                }
+                .ipt-tb:hover{
+                    background-position: -89px 0;
+                }
+                .ipt-wx{
+                    background-position: -119px 0;
+                }
+                .ipt-wx:hover{
+                    background-position: -149px 0;
+                }
+            }
+        }
+    }
+}
+
+// 底部
+#footer{
+    background: #555;
+    border-top: 3px solid #ff5482;
+    .con{
+        height: 38px;
+        text-align: center;
+        padding: 10px 0;
+        .footer-nav{
+            height: 18px;
+            color: #ddd;
+            line-height: 18px;
+            a{
+                color: #ddd;
+                margin: 0 10px;
+                text-decoration: none;
+            }
+            a:hover{
+                color: #fff;
+            }
+        }
+    }
+}
+
+// 底部版权
+#footer-Copyright{
+    background: #fff;
+    .con{
+        text-align: center;
+        height: 104px;
+        padding-top: 20px;
+        color: #999;
+        font-size: 12px;
+    }
+    .two{
+        margin-top: 8px;
+        a{
+            color: #999;
+            text-decoration: none;
+        }
+    }
+}

@@ -1,0 +1,397 @@
+#top-nav {
+  background: #f4f4f4;
+  border-bottom: 1px solid #e8e8e8;
+}
+#top-nav .con {
+  height: 28px;
+}
+#top-nav .con .top-ul {
+  width: 670px;
+  height: 100%;
+  float: right;
+  font-size: 12px;
+  line-height: 28px;
+  text-align: center;
+}
+#top-nav .con .top-ul li {
+  height: 100%;
+  border-right: 1px solid #ddd;
+  padding: 0;
+  color: #555;
+}
+#top-nav .con .top-ul li a {
+  color: #555;
+}
+#top-nav .con .top-ul li a.active {
+  color: #ff5482;
+}
+#top-nav .con .top-ul #user-info i {
+  color: #f90;
+}
+#top-nav .con .top-ul #user-info .num {
+  color: #f90;
+  text-decoration: none;
+}
+#top-nav .con .top-ul li:last-child {
+  border: none;
+}
+#top-nav .con .top-ul li:nth-child(3) {
+  padding-left: 18px;
+}
+#top-nav .con .top-ul li:nth-child(3) .business-center {
+  width: 130px;
+}
+#top-nav .con .top-ul li:nth-child(3) .business-center .bc-box {
+  width: 130px;
+}
+#top-nav .con .top-ul li:nth-child(3) .business-center .bc-box li {
+  border: none;
+}
+#top-nav .con .top-ul li:nth-child(3) .business-center .bc-box .bc-show {
+  width: 130px;
+}
+#top-nav .con .top-ul li:nth-child(3) .business-center .bc-box .bc-hide {
+  display: none;
+}
+#top-nav .con .top-ul li:nth-child(3) .business-center:hover .bc-box .bc-hide {
+  display: block;
+  z-index: 4;
+}
+
+#head {
+  background: #fff;
+}
+#head .con {
+  height: 90px;
+  padding-top: 28px;
+  position: relative;
+}
+#head .con .logo {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 15px;
+  text-indent: -9999em;
+  width: 250px;
+  height: 60px;
+  background: url(../img/logo.png);
+}
+#head .con .main-logo-slogan {
+  margin-right: 36px;
+}
+#head .con .top-car {
+  display: block;
+  width: 130px;
+  height: 35px;
+  background: #ff647c;
+  float: right;
+  color: #fff;
+  font-size: 16px;
+  line-height: 35px;
+  text-align: right;
+  padding-right: 5px;
+  border-radius: 10px;
+  position: relative;
+}
+#head .con .top-car .top-car-icon {
+  width: 35px;
+  height: 35px;
+  background: #444;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  position: absolute;
+  left: -16px;
+  top: 0;
+  text-align: center;
+}
+
+#car {
+  background: #f2f4f6;
+  border-top: 2px solid #c4c6c7;
+  padding-bottom: 20px;
+}
+#car .con {
+  background: #fefefe;
+}
+#car .con .car-process {
+  position: relative;
+  height: 72px;
+  background: #fafafa;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #eee;
+  margin: 20px 0 10px 0;
+}
+#car .con .car-process h1 {
+  margin: 0 0 0 30px;
+  line-height: 70px;
+  color: #a7a7a7;
+  text-shadow: 0 -1px 0 #fff;
+  font-size: 2em;
+}
+#car .con .car-process i {
+  position: absolute;
+  right: 30px;
+  top: 0;
+  background: url(../img/cart_merge.png) no-repeat 500px 500px;
+  width: 340px;
+  height: 70px;
+  display: inline-block;
+  background-position: 0 -88px;
+}
+#car .con .car-list {
+  padding: 20px;
+  position: relative;
+}
+#car .con .car-list .car-form {
+  margin: 0;
+}
+#car .con .car-list .car-form td {
+  padding: 12px;
+}
+#car .con .car-list .car-form .car-table {
+  width: 100%;
+  border: none;
+  border-top: 1px solid #ddd;
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+}
+#car .con .car-list .car-form .car-table th {
+  border-left: none;
+  border-width: 0 0 0 1px;
+  font-size: inherit;
+  margin: 0;
+  overflow: visible;
+  padding: 6px 12px;
+}
+#car .con .car-list .car-form .car-table thead {
+  background: #f3f3f3;
+  color: #555;
+  text-align: left;
+  vertical-align: bottom;
+  display: table-header-group;
+}
+#car .con .car-list .car-form .car-table thead tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+#car .con .car-list .car-form .car-table thead tr .car-th-check {
+  width: 80px;
+}
+#car .con .car-list .car-form .car-table thead tr .car-th-check input {
+  margin: 0;
+}
+#car .con .car-list .car-form .car-table thead tr .car-th-item {
+  width: 300px;
+}
+#car .con .car-list .car-form .car-table thead tr .car-th-info {
+  width: 163px;
+}
+#car .con .car-list .car-form .car-table thead tr .car-th-price {
+  width: 170px;
+}
+#car .con .car-list .car-form .car-table thead tr .car-th-num {
+  width: 240px;
+}
+#car .con .car-list .car-form .car-table thead tr .car-th-total {
+  width: 120px;
+}
+#car .con .car-list .car-form .car-table thead tr .car-th-del {
+  width: 74px;
+}
+#car .con .car-list .car-form .car-table tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+#car .con .car-list .car-form .car-table tbody .kong {
+  height: 15px;
+}
+#car .con .car-list .car-form .car-table tbody .shopName {
+  background: #f4f4f4;
+  border: 1px solid #d8d8d8;
+}
+#car .con .car-list .car-form .car-table tbody .shopName td {
+  border-left: none;
+  position: relative;
+  vertical-align: top;
+  padding: 12px;
+}
+#car .con .car-list .car-form .car-table tbody .shopName td input {
+  margin: 0;
+}
+#car .con .car-list .car-form .car-table tbody .shopName td span {
+  color: #555;
+  padding-left: 6px;
+}
+#car .con .car-list .car-form .car-table tbody .shopName td span a {
+  color: #3e3e3e;
+  text-decoration: none;
+}
+#car .con .car-list .car-form .car-table tbody .show-item {
+  border: 1px solid #d8d8d8;
+  border-top: 0;
+}
+#car .con .car-list .car-form .car-table tbody .show-item .car-td-check {
+  padding: 12px 0 12px 40px;
+  vertical-align: middle;
+  text-align: center;
+  vertical-align: middle;
+}
+#car .con .car-list .car-form .car-table tbody .show-item .car-td-item a {
+  color: #3e3e3e;
+  text-decoration: none;
+  font-size: 12px;
+}
+#car .con .car-list .car-form .car-table tbody .show-item .car-td-item .image {
+  float: left;
+  height: 75px;
+  width: 75px;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  padding: 1px;
+}
+#car .con .car-list .car-form .car-table tbody .show-item .car-td-item .image img {
+  width: 75px;
+  height: 75px;
+}
+#car .con .car-list .car-form .car-table tbody .show-item .car-td-item .title {
+  display: block;
+  line-height: 20px;
+  margin: 0 20px 0 90px;
+  overflow: hidden;
+}
+#car .con .car-list .car-form .car-table tbody .show-item .car-td-info {
+  color: #888;
+}
+#car .con .car-list .car-form .car-table tbody .show-item .car-td-info p {
+  margin: 0 0 8px;
+}
+#car .con .car-list .car-form .car-table tbody .show-item .car-td-price .newPrice {
+  font-size: 20px;
+}
+#car .con .car-list .car-form .car-table tbody .show-item .car-td-price .oldPrice {
+  color: #888;
+  text-decoration: line-through;
+}
+#car .con .car-list .car-form .car-table tbody .show-item .car-td-num {
+  padding-right: 100px;
+}
+#car .con .car-list .car-form .car-table tbody .show-item .car-td-num span {
+  cursor: pointer;
+}
+#car .con .car-list .car-form .car-table tbody .show-item .car-td-total {
+  color: #ff5482;
+  font-size: 20px;
+}
+#car .con .car-list .car-form .car-table tbody .total1 {
+  padding: 12px 0;
+  border: 1px solid #d8d8d8;
+  border-top: 0;
+}
+#car .con .car-list .car-form .car-table tbody .total1 .subtotal {
+  margin: 3px 0;
+}
+#car .con .car-list .car-form .car-table tbody .total1 .subtotal span {
+  float: right;
+  display: block;
+  text-align: center;
+}
+#car .con .car-list .car-form .car-table tbody .total1 .subtotal span.title {
+  color: #afafaf;
+  font-size: 20px;
+  width: 80px;
+}
+#car .con .car-list .car-form .car-table tbody .total1 .subtotal span.price {
+  color: #ff5482;
+  font-size: 22px;
+  margin: 0 20px;
+}
+#car .con .car-list .car-form .allCount {
+  margin-top: 15px;
+  width: 963px;
+  height: 60px;
+  background: #f3f3f3;
+  padding: 0 0 0 25px;
+  position: relative;
+  border: 1px solid #eee;
+}
+#car .con .car-list .car-form .allCount .row {
+  padding: 15px 3px;
+}
+#car .con .car-list .car-form .allCount .row input {
+  margin: 0;
+}
+#car .con .car-list .car-form .allCount .row p {
+  text-align: center;
+  font-size: 14px;
+  height: 30px;
+  line-height: 30px;
+  color: #404040;
+}
+#car .con .car-list .car-form .allCount .row p span {
+  font-size: 16px;
+  color: #ff4975;
+}
+#car .con .car-list .car-form .allCount .row p a.buy-all {
+  width: 180px;
+  font-size: 20px;
+}
+
+#boundary {
+  height: 148px;
+  background: #f9f9f9;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+#boundary img {
+  position: absolute;
+  left: 50%;
+  margin-left: -960px;
+  background-position: center;
+}
+
+#footer {
+  background: #555;
+  border-top: 3px solid #ff5482;
+}
+#footer .con {
+  height: 38px;
+  text-align: center;
+  padding: 10px 0;
+}
+#footer .con .footer-nav {
+  height: 18px;
+  color: #ddd;
+  line-height: 18px;
+}
+#footer .con .footer-nav a {
+  color: #ddd;
+  margin: 0 10px;
+  text-decoration: none;
+}
+#footer .con .footer-nav a:hover {
+  color: #fff;
+}
+
+#footer-Copyright {
+  background: #fff;
+}
+#footer-Copyright .con {
+  text-align: center;
+  height: 104px;
+  padding-top: 20px;
+  color: #999;
+  font-size: 12px;
+}
+#footer-Copyright .two {
+  margin-top: 8px;
+}
+#footer-Copyright .two a {
+  color: #999;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=car.css.map */

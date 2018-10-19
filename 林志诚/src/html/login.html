@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>登录页</title>
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap-3.3.7-dist/css/bootstrap.css" />
+        <link rel="stylesheet" type="text/css" href="../css/base.css" />
+        <link rel="stylesheet" type="text/css" href="../css/login.css" />
+        <link rel="stylesheet" type="text/css" href="../css/drag.css" />
+
+        <script src="../js/jquery-1.10.1.min.js" type="text/javascript"></script>
+        <script src="../js/common.js" type="text/javascript"></script>
+        <script src="../js/drag.js" type="text/javascript"></script>
+        <script src="../js/login.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <!-- 顶部 -->
+        <div id="head">
+            <div class="con">
+                <a href="../index.html" class="logo fl">贝贝网</a>
+                <a href="#" class="main-logo-slogan fr">
+                    <img src="../img/main-logo-slogan.png" height="40" width="390" alt="" />
+                </a>
+            </div>
+        </div>
+
+        <!-- 中间 -->
+        <div id="content">
+            <div class="con">
+                <img src="../img/login-pic.png" alt="" class="login-pic" />
+                <div class="login fr">
+                    <form action="" name="login">
+                        <div class="lg-title">
+                            登录贝贝
+                            <a href="reg.html" class="fr">立即注册</a>
+                            <span class="fr">还没账号？</span>
+                        </div>
+
+                        <div class="input-group userN">
+                            <span class="input-group-addon">
+                                <i class="glyphicon glyphicon-user"></i>
+                            </span>
+                            <input type="text" class="form-control" placeholder="您的手机号" id="phonenumber">
+                        </div>
+                        <div class="input-group passW">
+                            <span class="input-group-addon">
+                                <i class="glyphicon glyphicon-lock"></i>
+                            </span>
+                            <input type="password" id="password" class="form-control" placeholder="密码">
+                        </div>
+                        <div id="drag"></div>
+                        
+                        <div class="tip">
+                            <label for="autoLogin"><input type="checkbox" id="autoLogin" />&nbsp;7天免登录</label>
+                            <a href="#" class="forget">
+                                忘记密码
+                            </a>
+                        </div>
+
+                        <button type="button" id="btnLg">登录</button>
+
+                        <div class="ipt-quick">
+                            <span class="fl">快捷登录方式：</span>
+                            <a href="#" class="ipt-con ipt-qq"></a>
+                            <a href="#" class="ipt-con ipt-tb"></a>
+                            <a href="#" class="ipt-con ipt-wx"></a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- 底部 -->
+        <div id="footer">
+            <div class="con">
+                <div class="footer-nav">
+                    <a href="#">首页</a>|
+                    <a href="#">关于贝贝</a>|
+                    <a href="#">商家入驻</a>|
+                    <a href="#">正品保证</a>|
+                    <a href="#">人才招聘</a>|
+                    <a href="#">联系我们</a>|
+                    <a href="#">帮助中心</a>|
+                    <a href="#">友情链接</a>|
+                    <a href="#">手机客户端</a>|
+                    <a href="#">客服在线</a>|
+                    <a href="#">贝贝公益</a>
+                </div>
+            </div>
+        </div>
+        <!-- 底部版权 -->
+        <div id="footer-Copyright">
+            <div class="con">
+                <p class="one">浙ICP备12005806号 | 食品流通许可证：SP3301041510054925 | 出版物经营许可证：新出发零字第00086号</p>
+                <p class="two">
+                    © 2014-2017
+                    <a href="#">贝贝集团</a> 
+                    All Rights Reserved. 客服热线：10107788
+                </p>
+            </div>
+        </div>
+
+    </body>
+</html>
+
+<script type="text/javascript">
+$('#drag').drag();
+</script>
